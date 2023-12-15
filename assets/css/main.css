@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Galano Grotesque Alt', sans-serif;
+
+
+}
+
+header .container .row{
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    width: 85%;
+    justify-content: space-between;
+    border-bottom: 2px solid blue;
+    align-items: center;
+}
+header .container .row .logo .NN{
+    font-size: 40px;
+    color: white;
+font-weight: 400;
+
+}
+header .container .row .logo .NN :hover{
+    color: black;
+    transition: 0.5s;
+}
+header .container .row .logo span{
+    color: blue;
+    font-size: 40px;
+}
+header .container .row .nav-links a{
+    text-decoration: none;
+    margin-right: 25px;
+    padding-top: 10px;
+    font-weight: 100;
+    color: black;
+
+
+}
+
+header .container .row .nav-links a:hover{
+
+    color: white;
+    transition: 0.5s;
+    border-bottom: 10px solid white;
+}
+header .container .row .bars{
+    display: none;
+}
+header .container .row .sign a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+
+
+
+}
+header .container .row .sign button{
+
+    padding: 15px;
+    border: none;
+    background-color: rgba(80, 79, 79, 0.5);
+    border-radius: 40px;
+    color: white;
+    box-shadow: 0 0 10px blue;
+    margin-left: 10px;
+    font-size: 20px;
+}
+header .container .row .sign button:hover{
+    background-color: rgba(80, 79, 79, 01.5);
+
+}
+
+main .container .row{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 10%;
+    background-image: url(../images/);
+}
+body{
+    /* background-color: #181920; */
+    background-image: url(../images/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+
+}
+
+main .container .row .photo{
+
+    width: 40%;
+    position: relative;
+
+}
+main .container .row .intro{
+    align-items: center;
+    width: 40%;
+    padding: 25px;
+    font-size: 30px;
+    justify-content: space-between;
+
+
+}
+
+main .container .row .intro .part-1 button{
+    padding: 15px;
+    border: none;
+    background-color: rgba(80, 79, 79, 0.5);
+    border-radius: 40px;
+    color: white;
+    box-shadow: 0 0 10px blue;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 25px;
+
+}
+main .container .row .intro .part-1 button:hover{
+    background-color: rgba(80, 79, 79, 01.5);
+
+}
+
+main .container .row .intro .part-1 .NFT{
+
+    color: blue;
+}
+
+main .container .row .photo img{
+    width: 100%;
+}
+main .container .row .effects{
+    position: absolute;
+    top: 150px;
+    right: 70px;
+    border-radius: 400px;
+    width: 80vh;
+    z-index: -10000;
+
+}
+footer i{
+   right: -5px;
+    font-size: 40px;
+}
+main .container .row .effects img{
+    width: 60%;
+    
+}
+
+
+
+
+main .container .row .effects img{
+    animation: spin 3s infinite linear;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  footer  .sun {
+
+    position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 100;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0 0 20px black;
+
+  }
+
+  footer  .sun:hover {
+
+    animation: sunner 0.5s;
+
+
+  }
+
+  @keyframes sunner {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-10px);
+    }
+  }
+
+
+
+
+
+
+  @media (max-width:992px)
+  {
+
+    header .container .row .nav-links a{
+    
+        display: none;
+    }
+
+    main .container .row{
+        display: block;
+
+    }
+    header .container .row .sign{
+        display: none;
+    }
+    header .container .row .bars{
+        display: flex;
+    }
+
+
+  }
+  @media (max-width:776px)
+  {
+
+    header .container .row .nav-links a{
+    
+        display: none;
+    }
+    header .container .row .bars{
+        display: flex;
+    }
+    main .container .row{
+        display: block;
+
+    }
+
+    header .container .row .sign{
+        display: none;
+    }
+
+  }
+
+  @media (max-width:350px)
+  {
+
+    header .container .row .nav-links a{
+    
+        display: none;
+    }
+
+
+    main .container .row{
+        display: block;
+
+    }
+    header .container .row .sign{
+        display: none;
+    }
+    main .container .row .photo img{
+
+        width: 50vh;
+        height: 50vh;
+    }
+
+  }
