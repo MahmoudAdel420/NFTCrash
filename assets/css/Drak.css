@@ -13,7 +13,7 @@ header .container .row{
     padding: 10px;
     width: 85%;
     justify-content: space-between;
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid #ff0000;
     align-items: center;
 }
 header .container .row .logo .NN{
@@ -23,11 +23,11 @@ font-weight: 400;
 
 }
 header .container .row .logo .NN :hover{
-    color: black;
+    color: #ff0000;
     transition: 0.5s;
 }
 header .container .row .logo span{
-    color: blue;
+    color: #ff0000;
     font-size: 40px;
 }
 header .container .row .nav-links a{
@@ -35,24 +35,25 @@ header .container .row .nav-links a{
     margin-right: 25px;
     padding-top: 10px;
     font-weight: 100;
-    color: black;
+    color: white;
 
 
 }
 
 header .container .row .nav-links a:hover{
 
-    color: white;
+    color: #ff0000;
     transition: 0.5s;
-    border-bottom: 10px solid white;
+    border-bottom: 10px solid #ff0000;
 }
 header .container .row .bars{
     display: none;
+    color: white;
 }
 header .container .row .sign a{
     text-decoration: none;
     font-size: 20px;
-    color: white;
+    color: #ff0000;
 
 
 
@@ -64,7 +65,7 @@ header .container .row .sign button{
     background-color: rgba(80, 79, 79, 0.5);
     border-radius: 40px;
     color: white;
-    box-shadow: 0 0 10px blue;
+    box-shadow: 0 0 10px #ff0000;
     margin-left: 10px;
     font-size: 20px;
 }
@@ -82,8 +83,9 @@ main .container .row{
     background-image: url(../images/);
 }
 body{
-    /* background-color: #181920; */
-    background-image: url(../images/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+    background-color: #003346
+    ;
+ 
 
 }
 
@@ -132,7 +134,7 @@ main .container .row .intro .part-1 button{
     background-color: rgba(80, 79, 79, 0.5);
     border-radius: 40px;
     color: white;
-    box-shadow: 0 0 10px blue;
+    box-shadow: 0 0 10px #ff0000;
     margin-left: 10px;
     font-size: 20px;
     margin-top: 25px;
@@ -143,9 +145,13 @@ main .container .row .intro .part-1 button:hover{
 
 }
 
+main .container .row .intro .part-1 {
+    color: white;
+}
+
 main .container .row .intro .part-1 .NFT{
 
-    color: blue;
+    color: #ff0000;
 }
 
 main .container .row .photo img{
@@ -174,6 +180,7 @@ footer i{
 
 main .container .row .effects img{
     animation: spin 3s infinite linear;
+    
     position: absolute;
     right: 100px;
     width: 80%;
@@ -197,7 +204,7 @@ main .container .row .effects img{
     padding: 10px;
     background-color: white;
     border-radius: 50px;
-    box-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px rgb(255, 0, 0);
 
   }
 
